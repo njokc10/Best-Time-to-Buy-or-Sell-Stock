@@ -9,7 +9,7 @@ def maxProfit(cene, k):
         return 0
     
     # k je dovolj velik, da pokrije vse moznosti
-    # if k > num_days / 2 -> casovna zahtevnost je O(n)
+    # if k > st_dni / 2 -> casovna zahtevnost je O(n)
     if k >= st_dni / 2:
         return sum(i-j for i, j in zip(cene[1:], cene[:-1]) if i-j > 0)
     
