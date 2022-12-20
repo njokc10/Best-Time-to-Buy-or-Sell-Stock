@@ -1,4 +1,4 @@
-def maxProfit(cene, k):
+def maks_dobicek(cene, k):
     '''Vrne maksimalen dobicek, ki ga lahko ustvarimo
         z nakopom in prodajo dolocene delnice
         z najvec k transakcijami.'''
@@ -27,11 +27,11 @@ def maxProfit(cene, k):
     return globalni_dobicek[-1]
 
 #test
-print(maxProfit([3,2,6,5,0,3], 2))
-print(maxProfit([2,4,1], 2))
-print(maxProfit([3,2,6,1,4,2,6], 2))
-print(maxProfit([3,2,6], 2))
-print(maxProfit([2,2,6], 2))
-print(maxProfit([2,2,2], 2))
-print(maxProfit([3,2,6,8], 3))
+print(maks_dobicek([3,2,6,5,0,3], 2))
+print(maks_dobicek([2,4,1], 2))
+print(maks_dobicek([3,2,6,1,4,2,6], 2))
+print(maks_dobicek([3,2,6], 2))
+print(maks_dobicek([2,2,6], 2))
+print(maks_dobicek([2,2,2], 2))
+print(maks_dobicek([3,2,6,8], 3))
 
